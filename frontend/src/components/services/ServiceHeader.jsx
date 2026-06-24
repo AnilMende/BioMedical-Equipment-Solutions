@@ -3,7 +3,7 @@ import { FiSettings } from "react-icons/fi";
 const ServiceHeader = () => {
 
     return(
-        <div className="text-center max-w-4xl mx-auto mb-20">
+        <div className="text-center max-w-4xl mx-auto mb-14">
             {/* Badge */}
             <div className="inline-flex items-center gap-3 px-5 py-3 rounded-full bg-blue-100 border
             border-blue-100 shadow-sm mb-6 cursor-pointer">
