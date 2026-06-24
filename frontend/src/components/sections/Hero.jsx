@@ -1,7 +1,6 @@
-
 import Container from "../common/Container.jsx";
-import HeroStats from "./HeroStats.jsx";
-import FloatingCard from "./FloatingCard.jsx";
+import HeroStats from "../Hero/HeroStats.jsx";
+import FloatingCard from "../Hero/FloatingCard.jsx";
 import patientMonitor from "../../assets/images/modern-patient-monitor.png";
 import { FiShield } from "react-icons/fi";
 import { FiPhone, FiArrowRight } from "react-icons/fi";
@@ -36,7 +35,7 @@ const Hero = () => {
                             </div>
 
                             <span
-                                className="text-secondary font-semibold text-sm md:text-base text-blue-800"
+                                className="text-secondary font-semibold text-sm md:text-base text-blue-700"
                             >
                                 Trusted Biomedical Equipment Partner
                             </span>
@@ -101,7 +100,9 @@ const Hero = () => {
                         </div>
 
                         {/* Stats */}
-                        <HeroStats />
+                        <div>
+                            <HeroStats />
+                        </div>
 
                         {/* Trust Strip */}
                         {/* <TrustStrip/> */}
@@ -120,7 +121,7 @@ const Hero = () => {
                             max-w-[750px]
                             relative
                             z-10
-                            lg:-mt-26
+                            lg:-mt-30
                             "
                         />
 
@@ -128,19 +129,19 @@ const Hero = () => {
                         <FloatingCard
                             icon={<FiShoppingCart />}
                             title="Equipment Sales"
-                            className="top-2 left-0"
+                            className="-top-12 left-0"
                         />
 
                         <FloatingCard
                             icon={<FiSettings />}
                             title="AMC Services"
-                            className="top-14 right-0"
+                            className="top-10 right-0"
                         />
 
                         <FloatingCard
                             icon={<FiTool />}
                             title="Repair Solutions"
-                            className="bottom-22 left-10"
+                            className="bottom-26 left-10"
                         />
 
                         <FloatingCard
