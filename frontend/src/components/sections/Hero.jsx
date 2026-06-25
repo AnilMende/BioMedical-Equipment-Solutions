@@ -42,13 +42,13 @@ const Hero = () => {
                         </div>
 
                         {/* Heading */}
-                        <h1
-                            className="text-2xl md:text-4xl xl:text-5xl font-extrabold leading-tight text-primary"
+                        <h2
+                            className="text-3xl md:text-5xl xl:text-5xl font-extrabold leading-tight text-primary"
                         >
                             One Stop Solution For
                             <br />
                             All Your Hospital Needs
-                        </h1>
+                        </h2>
 
                         {/* Service Line */}
                         <p
