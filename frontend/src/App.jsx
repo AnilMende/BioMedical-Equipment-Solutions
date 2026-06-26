@@ -4,6 +4,8 @@ import About from "./components/sections/About.jsx";
 import Equipment from "./components/sections/Equipment.jsx";
 import Hero from "./components/sections/Hero.jsx";
 import Services from "./components/sections/Services.jsx";
+import WhyChooseUs from "./components/sections/WhyChooseUs.jsx";
+
 
 const App = () => {
 
@@ -11,13 +13,15 @@ const App = () => {
     <>
       <Navabr />
 
-      <Hero/>
+      <Hero />
 
-      <About/>
+      <About />
 
-      <Services/>
+      <Services />
 
-      <Equipment/>
+      <Equipment />
+
+      <WhyChooseUs />
     </>
   )
 }
