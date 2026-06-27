@@ -17,3 +17,25 @@ html {
         transform: translateY(0px);
     }
 }
+
+@theme {
+  --animate-mobile-service-flow: mobileServiceFlow 6s linear infinite;
+
+  /* @keyframes serviceFlow {
+    0% {
+      transform: translateX(-120px);
+    }
+    100% {
+      transform: translateX(calc(100vw - 420px));
+    }
+  } */
+
+  @keyframes mobileServiceFlow {
+    0% {
+      transform: translate(-50%, -120px);
+    }
+    100% {
+      transform: translate(-50%, 100%);
+    }
+  }
+}
