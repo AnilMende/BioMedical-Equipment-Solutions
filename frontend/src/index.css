@@ -1,3 +1,4 @@
+
 @import "tailwindcss";
 
 html {
@@ -19,16 +20,8 @@ html {
 }
 
 @theme {
+  /* Existing Animations */
   --animate-mobile-service-flow: mobileServiceFlow 6s linear infinite;
-
-  /* @keyframes serviceFlow {
-    0% {
-      transform: translateX(-120px);
-    }
-    100% {
-      transform: translateX(calc(100vw - 420px));
-    }
-  } */
 
   @keyframes mobileServiceFlow {
     0% {
@@ -38,4 +31,80 @@ html {
       transform: translate(-50%, 100%);
     }
   }
+
+  --animate-float-slow: floatSlow 10s ease-in-out infinite;
+  --animate-float-reverse: floatReverse 12s ease-in-out infinite;
+  --animate-spin-slow: spinSlow 25s linear infinite;
+  --animate-spin-slow-reverse: spinSlowReverse 30s linear infinite;
+
+  @keyframes floatSlow {
+    0%, 100% {
+      transform: translateY(0px);
+    }
+    50% {
+      transform: translateY(-30px);
+    }
+  }
+
+  @keyframes floatReverse {
+    0%, 100% {
+      transform: translateY(0px);
+    }
+    50% {
+      transform: translateY(25px);
+    }
+  }
+
+  @keyframes spinSlow {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  @keyframes spinSlowReverse {
+    from {
+      transform: rotate(360deg);
+    }
+    to {
+      transform: rotate(0deg);
+    }
+  }
+
+  --animate-badge-shimmer: badgeShimmer 7s ease-in-out infinite;
+
+  @keyframes badgeShimmer {
+    0% {
+      transform: translateX(-250%) skewX(-20deg);
+    }
+    15% {
+      transform: translateX(420%) skewX(-20deg);
+    }
+    100% {
+      transform: translateX(420%) skewX(-20deg);
+    }
+  }
+
+}
+
+@theme {
+
+  --animate-cta-glow: ctaGlow 3.5s ease-in-out infinite;
+
+  @keyframes ctaGlow {
+
+    0%,100% {
+      box-shadow:
+        0 20px 45px rgba(37,99,235,0.35);
+    }
+
+    50% {
+      box-shadow:
+        0 20px 65px rgba(37,99,235,0.55);
+    }
+
+  }
+
 }

@@ -1,6 +1,7 @@
 
 import Navabr from "./components/layout/Navbar.jsx";
 import About from "./components/sections/About.jsx";
+import CallToAction from "./components/sections/CallToAction.jsx";
 import Equipment from "./components/sections/Equipment.jsx";
 import Hero from "./components/sections/Hero.jsx";
 import ServiceProcess from "./components/sections/ServiceProcess.jsx";
@@ -28,6 +29,8 @@ const App = () => {
       <ServiceProcess />
 
       <Testimonials />
+
+      <CallToAction />
     </>
   )
 }
