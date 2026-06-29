@@ -29,7 +29,7 @@ const Services = () => {
                 </div>
 
                 {/* Service Highlights */}
-                <ServiceHighlights/>
+                {/* <ServiceHighlights/> */}
 
             </Container>
 

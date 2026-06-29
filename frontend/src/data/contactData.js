@@ -1,46 +1,71 @@
-
-import { FiPhoneCall, FiMessageCircle, FiMapPin, FiInstagram,} from "react-icons/fi";
+import { FiPhone, FiMessageCircle, FiInstagram, FiMapPin,} from "react-icons/fi";
 
 export const contactData = [
-
     {
         id: 1,
+
         title: "Call Now",
+
         subtitle: "+91 98765 43210",
-        description: "Speak directly with our biomedical service team.",
-        icon: FiPhoneCall,
+
+        description:
+            "Speak directly with our biomedical service team.",
+
+        icon: FiPhone,
+
         href: "tel:+919876543210",
+
         accent: "blue",
     },
 
     {
         id: 2,
+
         title: "WhatsApp",
-        subtitle: "+91 98765 43210",
-        description: "Chat with us and share equipment details instantly.",
+
+        subtitle: "Chat with our team",
+
+        description:
+            "Connect instantly with our support engineers for quick assistance.",
+
         icon: FiMessageCircle,
-        href: "https://wa.me/919876543210?text=Hello,%20I%20need%20biomedical%20equipment%20service.",
+
+        href: "https://wa.me/919876543210",
+
         accent: "green",
     },
 
     {
         id: 3,
-        title: "Visit Us",
+
+        title: "Location",
+
         subtitle: "Hyderabad, Telangana",
-        description: "Find our office location on Google Maps.",
+
+        description:
+            "Visit our office or open the location directly in Google Maps.",
+
         icon: FiMapPin,
-        href: "https://maps.google.com/?q=Hyderabad",
+
+        href: "https://maps.google.com",
+
         accent: "cyan",
     },
 
     {
         id: 4,
+
         title: "Instagram",
-        subtitle: "@your_instagram",
-        description: "Follow us for updates and recent projects.",
+
+        subtitle: "@universal_biomeds",
+
+        description:
+            "Follow us for updates, projects and the latest biomedical solutions.",
+
         icon: FiInstagram,
-        href: "https://instagram.com/your_instagram",
+
+        href: "https://instagram.com/universal_biomeds",
+
         accent: "instagram",
     },
-
 ];

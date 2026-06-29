@@ -5,6 +5,7 @@ import CallToAction from "./components/sections/CallToAction.jsx";
 import Contact from "./components/sections/Contact.jsx";
 import Equipment from "./components/sections/Equipment.jsx";
 import FAQSection from "./components/sections/FAQSection.jsx";
+import Footer from "./components/sections/Footer.jsx";
 import Hero from "./components/sections/Hero.jsx";
 import ServiceProcess from "./components/sections/ServiceProcess.jsx";
 import Services from "./components/sections/Services.jsx";
@@ -37,6 +38,8 @@ const App = () => {
       <FAQSection />
 
       <Contact />
+
+      <Footer />
     </>
   )
 }

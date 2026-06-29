@@ -104,6 +104,8 @@ html {
   --animate-cta-glow: ctaGlow 3.5s ease-in-out infinite;
   --animate-gradient-shift: gradientShift 10s ease-in-out infinite;
   --animate-soft-pulse: softPulse 3s ease-in-out infinite;
+  --animate-footer-float: footerFloat 18s ease-in-out infinite;
+  --animate-footer-twinkle: footerTwinkle 5s ease-in-out infinite;
 
   @keyframes ctaGlow {
 
@@ -145,6 +147,45 @@ html {
 
     50% {
       transform: scale(1.08);
+    }
+
+  }
+
+  @keyframes footerFloat {
+
+    0% {
+      transform: translate(0px, 0px);
+    }
+
+    25% {
+      transform: translate(10px, -12px);
+    }
+
+    50% {
+      transform: translate(-8px, -22px);
+    }
+
+    75% {
+      transform: translate(12px, -10px);
+    }
+
+    100% {
+      transform: translate(0px, 0px);
+    }
+
+  }
+
+  @keyframes footerTwinkle {
+
+    0%,
+    100% {
+      opacity: .15;
+      transform: scale(1);
+    }
+
+    50% {
+      opacity: .8;
+      transform: scale(1.4);
     }
 
   }
