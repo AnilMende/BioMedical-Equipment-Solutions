@@ -1,7 +1,7 @@
-import Container from "../common/Container.jsx";
+import Container from "../components/common/Container.jsx";
 
-import TestimonialsHeader from "../testimonials/TestimonialsHeader.jsx";
-import TestimonialSlider from "../testimonials/TestimonialSlider.jsx";
+import TestimonialsHeader from "../components/testimonials/TestimonialsHeader.jsx";
+import TestimonialSlider from "../components/testimonials/TestimonialSlider.jsx";
 
 const Testimonials = () => {
 

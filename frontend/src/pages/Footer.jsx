@@ -1,13 +1,14 @@
-import Container from "../common/Container.jsx";
 
-import FooterBrand from "../footer/FooterBrand.jsx";
-import FooterLinks from "../footer/FooterLinks.jsx";
-import FooterServices from "../footer/FooterServices.jsx";
-import FooterContact from "../footer/FooterContact.jsx";
-import FooterSocials from "../footer/FooterSocials.jsx";
-import FooterBottom from "../footer/FooterBottom.jsx";
+import Container from "../components/common/Container.jsx";
 
-import useInView from "../../hooks/useInView.js";
+import FooterBrand from "../components/footer/FooterBrand.jsx";
+import FooterLinks from "../components/footer/FooterLinks.jsx";
+import FooterServices from "../components/footer/FooterServices.jsx";
+import FooterContact from "../components/footer/FooterContact.jsx";
+import FooterSocials from "../components/footer/FooterSocials.jsx";
+import FooterBottom from "../components/footer/FooterBottom.jsx";
+
+import useInView from "../hooks/useInView.js";
 
 const Footer = () => {
 

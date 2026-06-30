@@ -1,8 +1,9 @@
-import CTAButtons from "../calltoaction/CTAButtons.jsx";
-import CTAContent from "../calltoaction/CTAContent.jsx";
-import FloatingElements from "../calltoaction/FloatingElements.jsx";
-import TrustHighlights from "../calltoaction/TrustHighlights.jsx";
-import Container from "../common/Container.jsx";
+
+import Container from "../components/common/Container.jsx";
+import CTAContent from "../components/calltoaction/CTAContent.jsx";
+import FloatingElements from "../components/calltoaction/FloatingElements.jsx";
+import TrustHighlights from "../components/calltoaction/TrustHighlights.jsx";
+import CTAButtons from "../components/calltoaction/CTAButtons.jsx";
 
 const CallToAction = () => {
 

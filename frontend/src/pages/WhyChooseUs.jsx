@@ -1,7 +1,8 @@
-import Container from "../common/Container.jsx";
-import BenefitsList from "../whyChooseUs/BenefitsList.jsx";
-import TrustImage from "../whyChooseUs/TrustImage.jsx";
-import WhyChooseHeader from "../whyChooseUs/WhyChooseHeader.jsx";
+
+import Container from "../components/common/Container.jsx";
+import BenefitsList from "../components/whyChooseUs/BenefitsList.jsx";
+import TrustImage from "../components/whyChooseUs/TrustImage.jsx";
+import WhyChooseHeader from "../components/whyChooseUs/WhyChooseHeader.jsx";
 
 
 const WhyChooseUs = () => {

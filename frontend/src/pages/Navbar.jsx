@@ -1,14 +1,13 @@
 import { useEffect, useState } from "react";
 import { HiOutlineMenuAlt3 } from "react-icons/hi";
 
-import Container from "../common/Container.jsx";
+import Container from "../components/common/Container.jsx";
 
-import Logo from "../navbar/Logo.jsx";
-import DesktopNav from "../navbar/DesktopNav.jsx";
-import MobileMenu from "../navbar/MobileMenu.jsx";
-import CTAButton from "../navbar/CTAButton.jsx";
-
-import useActiveSection from "../../hooks/useActiveSection.js";
+import Logo from "../components/navbar/Logo.jsx";
+import DesktopNav from "../components/navbar/DesktopNav.jsx";
+import MobileMenu from "../components/navbar/MobileMenu.jsx";
+import CTAButton from "../components/navbar/CTAButton.jsx";
+import useActiveSection from "../hooks/useActiveSection.js";
 
 const Navbar = () => {
 

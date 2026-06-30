@@ -1,8 +1,9 @@
-import { services } from "../../data/services.js";
-import Container from "../common/Container.jsx"
-import ServiceHeader from "../services/ServiceHeader.jsx"
-import ServiceCard from "../services/ServiceCard.jsx";
-import useInView from "../../hooks/useInView.js";
+import { services } from "../data/services.js";
+
+import Container from "../components/common/Container.jsx";
+import ServiceHeader from "../components/services/ServiceHeader.jsx";
+import ServiceCard from "../components/services/ServiceCard.jsx";
+import useInView from "../hooks/useInView.js";
 
 const Services = () => {
 

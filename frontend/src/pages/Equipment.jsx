@@ -1,6 +1,7 @@
-import Container from "../common/Container.jsx";
-import EquipmentHeader from "../equipment/EquipmentHeader.jsx";
-import EquipmentGrid from "../equipment/EquipmentGrid.jsx";
+
+import Container from "../components/common/Container.jsx";
+import EquipmentHeader from "../components/equipment/EquipmentHeader.jsx";
+import EquipmentGrid from "../components/equipment/EquipmentGrid.jsx";
 
 const Equipment = () => {
 

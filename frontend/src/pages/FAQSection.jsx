@@ -1,6 +1,6 @@
-import Container from "../common/Container.jsx";
-import FAQAccordion from "../faq/FAQAccordion.jsx";
-import FAQHeader from "../faq/FAQHeader.jsx";
+import Container from "../components/common/Container.jsx";
+import FAQAccordion from "../components/faq/FAQAccordion.jsx";
+import FAQHeader from "../components/faq/FAQHeader.jsx";
 
 
 const FAQSection = () => {

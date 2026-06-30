@@ -1,7 +1,6 @@
-import Container from "../common/Container.jsx";
-import ProcessHeader from "../ServiceProcess/ProcessHeader.jsx";
-import ProcessTimeline from "../ServiceProcess/ProcessTimeline.jsx";
-
+import Container from "../components/common/Container.jsx";
+import ProcessHeader from "../components/ServiceProcess/ProcessHeader.jsx";
+import ProcessTimeline from "../components/ServiceProcess/ProcessTimeline.jsx";
 
 const ServiceProcess = () => {
 

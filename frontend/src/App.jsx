@@ -1,17 +1,17 @@
 
-import About from "./components/sections/About.jsx";
-import CallToAction from "./components/sections/CallToAction.jsx";
-import Contact from "./components/sections/Contact.jsx";
-import Equipment from "./components/sections/Equipment.jsx";
-import FAQSection from "./components/sections/FAQSection.jsx";
-import Footer from "./components/sections/Footer.jsx";
-import Hero from "./components/sections/Hero.jsx";
-import Navbar from "./components/sections/Navbar.jsx";
-import ServiceProcess from "./components/sections/ServiceProcess.jsx";
-import Services from "./components/sections/Services.jsx";
-import Testimonials from "./components/sections/Testimonials.jsx";
-import WhyChooseUs from "./components/sections/WhyChooseUs.jsx";
 
+import About from "./pages/About.jsx";
+import Hero from "./pages/Hero.jsx";
+import Navbar from "./pages/Navbar.jsx";
+import Services from "./pages/Services.jsx";
+import Equipment from "./pages/Equipment.jsx";
+import WhyChooseUs from "./pages/WhyChooseUs.jsx";
+import ServiceProcess from "./pages/ServiceProcess.jsx";
+import Testimonials from "./pages/Testimonials.jsx";
+import CallToAction from "./pages/CallToAction.jsx";
+import FAQSection from "./pages/FAQSection.jsx";
+import Contact from "./pages/Contact.jsx";
+import Footer from "./pages/Footer.jsx";
 
 const App = () => {
 

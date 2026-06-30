@@ -1,6 +1,6 @@
-import Container from "../common/Container.jsx";
-import AboutHeader from "../about/AboutHeader.jsx";
-import AboutContent from "../about/AboutContent.jsx";
+import Container from "../components/common/Container.jsx";
+import AboutHeader from "../components/about/AboutHeader.jsx";
+import AboutContent from "../components/about/AboutContent.jsx";
 
 const About = () => {
 

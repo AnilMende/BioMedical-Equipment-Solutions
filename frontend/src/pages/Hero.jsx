@@ -1,11 +1,13 @@
-import Container from "../common/Container.jsx";
-import HeroStats from "../Hero/HeroStats.jsx";
-import FloatingCard from "../Hero/FloatingCard.jsx";
-import patientMonitor from "../../assets/images/modern-patient-monitor.png";
+
+import patientMonitor from "../assets/images/modern-patient-monitor.png";
 import { FiShield } from "react-icons/fi";
 import { FiPhone, FiArrowRight } from "react-icons/fi";
 import { FiShoppingCart, FiTool, FiSettings, FiHeadphones } from "react-icons/fi";
-import HeroMobileImage from "../Hero/HeroMobileImage.jsx";
+
+import Container from "../components/common/Container.jsx";
+import FloatingCard from "../components/Hero/FloatingCard.jsx";
+import HeroMobileImage from "../components/Hero/HeroMobileImage.jsx";
+import HeroStats from "../components/Hero/HeroStats.jsx";
 
 const Hero = () => {
     return (

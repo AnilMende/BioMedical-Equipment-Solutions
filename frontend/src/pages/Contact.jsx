@@ -1,6 +1,6 @@
-import Container from "../common/Container.jsx";
-import ContactGrid from "../contact/ContactGrid.jsx";
-import ContactHeader from "../contact/ContactHeader.jsx";
+import Container from "../components/common/Container.jsx";
+import ContactGrid from "../components/contact/ContactGrid.jsx";
+import ContactHeader from "../components/contact/ContactHeader.jsx";
 
 const Contact = () => {
 
