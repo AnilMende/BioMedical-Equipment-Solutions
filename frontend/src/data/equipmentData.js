@@ -10,7 +10,7 @@ import ecgMachine from "../assets/equipmentimages/ecg-machine.png";
 import Defibrilators from "../assets/equipmentimages/defibrilators.png";
 import SyringePump from "../assets/equipmentimages/syringe-pumps.png";
 import infusionPump from "../assets/equipmentimages/infusion-pump.png";
-import AnesthesiaMission from "../assets/equipmentimages/anesthisia-Workstation.png";
+import AnesthesiaMission from "../assets/equipmentimages/anesthisia-workstation.png";
 import icuEquipment from "../assets/equipmentimages/icu-equipment.png";
 import otEquipment from "../assets/equipmentimages/ot-equipment.png";
 import Xraymachine from "../assets/equipmentimages/xray-machine.png";
