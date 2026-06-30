@@ -9,13 +9,14 @@ const About = () => {
         <section
             id="about"
             className="
+                scroll-mt-24
                 relative
                 overflow-hidden
                 bg-gradient-to-b
                 from-white
                 via-slate-50
                 to-white
-                py-28
+                py-20
             "
         >
 

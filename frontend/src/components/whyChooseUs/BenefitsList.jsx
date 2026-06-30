@@ -3,7 +3,7 @@ import { benefits } from "../../data/benefits.js";
 
 const BenefitsList = () => {
     return (
-        <section className="mt-32">
+        <section className="mt-20">
 
             {/* Section Header */}
             <div className="max-w-3xl mx-auto text-center">

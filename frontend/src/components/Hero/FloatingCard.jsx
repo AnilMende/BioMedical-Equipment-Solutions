@@ -3,32 +3,89 @@
 const FloatingCard = ({
     icon,
     title,
-    className
+    className,
 }) => {
+
     return (
+
         <div
             className={`
-            animate-[float_5s_ease-in-out_infinite] absolute z-20 bg-white/95 backdrop-blur-md
-            px-5 py-4 rounded-3xl border  border-white shadow-xl flex items-center gap-3 hover:-translate-y-1
-            hover:shadow-2xl  transition-all duration-300 cursor-pointer
+                group
 
-            ${className}
+                absolute
+                z-20
+
+                flex
+                items-center
+                gap-4
+
+                rounded-3xl
+
+                border
+                border-white/60
+
+                bg-white/80
+                backdrop-blur-xl
+
+                px-5
+                py-4
+
+                shadow-[0_20px_45px_rgba(15,23,42,0.08)]
+
+                transition-all
+                duration-500
+
+                hover:scale-105
+                hover:shadow-[0_30px_60px_rgba(15,23,42,0.15)]
+
+                animate-[float_5s_ease-in-out_infinite]
+
+                ${className}
             `}
         >
-            <p
-                className="w-12 h-12 rounded-2xl bg-secondary/10 flex items-center justify-center
-                text-secondary text-2xl text-blue-600"
-            >
-                {icon}
-            </p>
 
-            <p
-                className="text-primary font-bold leading-tight text-base text-blue-600"
+            <div
+                className="
+                    flex
+                    h-12
+                    w-12
+                    items-center
+                    justify-center
+
+                    rounded-2xl
+
+                    bg-gradient-to-br
+                    from-blue-600
+                    to-cyan-500
+
+                    text-white
+
+                    transition-transform
+                    duration-500
+
+                    group-hover:scale-110
+                    group-hover:rotate-6
+                "
             >
-                {title}
-            </p>
+
+                {icon}
+
+            </div>
+
+            <div>
+
+                <h4 className="font-bold text-slate-900">
+
+                    {title}
+
+                </h4>
+
+            </div>
+
         </div>
+
     );
+
 };
 
 export default FloatingCard;

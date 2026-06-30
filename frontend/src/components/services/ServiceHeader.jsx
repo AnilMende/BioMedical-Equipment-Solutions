@@ -8,7 +8,8 @@ const ServiceHeader = () => {
             <div className="inline-flex items-center gap-3 px-5 py-3 rounded-full bg-blue-100 border
             border-blue-100 shadow-sm mb-6 cursor-pointer">
 
-                <div className="w-8 h-8 rounded-full bg-blue-600 flex items-center justify-center">
+                <div className="w-8 h-8 rounded-full bg-blue-600 flex items-center justify-center
+                transition-all duration-300 hover:-translate-y-1 hover:shadow-lg group group-hover:rotate-12">
                     <FiSettings className="text-white text-lg"/>
                 </div>
 

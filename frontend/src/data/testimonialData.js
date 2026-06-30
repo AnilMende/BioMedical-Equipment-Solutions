@@ -5,10 +5,10 @@ import {
     FiShield,
 } from "react-icons/fi";
 
-// import doctor1 from "../../assets/testimonials/doctor-1.jpg";
-// import doctor2 from "../../assets/testimonials/doctor-2.jpg";
-// import director1 from "../../assets/testimonials/director-1.jpg";
-// import manager1 from "../../assets/testimonials/manager-1.jpg";
+import doctor1 from "../assets/testimonialImages/doctor-1.png";
+import doctor2 from "../assets/testimonialImages/doctor-2.png";
+import director1 from "../assets/testimonialImages/director-1.png";
+import manager1 from "../assets/testimonialImages/manager.png";
 
 export const testimonials = [
     {
@@ -16,7 +16,7 @@ export const testimonials = [
         name: "Dr. Rajesh Kumar",
         designation: "Chief Biomedical Engineer",
         organization: "City Hospital, Hyderabad",
-        image: "",
+        image: doctor1,
         rating: 5,
         icon: FiActivity,
         highlight: "24-Hour Response",
@@ -29,7 +29,7 @@ export const testimonials = [
         name: "Dr. Priya Sharma",
         designation: "ICU Administrator",
         organization: "Care Multispeciality Hospital",
-        image: "",
+        image: manager1,
         rating: 5,
         icon: FiHeart,
         highlight: "Trusted AMC Partner",
@@ -42,7 +42,7 @@ export const testimonials = [
         name: "Mr. Suresh Patel",
         designation: "Director",
         organization: "Precision Diagnostics",
-        image: "",
+        image: director1,
         rating: 5,
         icon: FiBriefcase,
         highlight: "Cost-Effective Solutions",
@@ -55,7 +55,7 @@ export const testimonials = [
         name: "Dr. Firoz Khan",
         designation: "Hospital Operations Manager",
         organization: "Apollo Medical Centre",
-        image: "",
+        image: doctor2,
         rating: 5,
         icon: FiShield,
         highlight: "Board-Level Repair Experts",

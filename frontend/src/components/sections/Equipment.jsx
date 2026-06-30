@@ -5,7 +5,7 @@ import EquipmentGrid from "../equipment/EquipmentGrid.jsx";
 const Equipment = () => {
 
     return(
-        <section id="equipment" className="py-24 bg-white overflow-hidden">
+        <section id="equipment" className="scroll-mt-24 py-24 bg-white overflow-hidden">
 
             <Container>
 

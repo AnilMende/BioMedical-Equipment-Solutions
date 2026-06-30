@@ -5,7 +5,7 @@ import ContactHeader from "../contact/ContactHeader.jsx";
 const Contact = () => {
 
     return (
-        <section id="contact" className=" relative overflow-hidden py-24 bg-gradient-to-b
+        <section id="contact" className="scroll-mt-24 relative overflow-hidden py-20 bg-gradient-to-b
          from-slate-50 via-white to-slate-50">
 
             {/* Background decoration */}

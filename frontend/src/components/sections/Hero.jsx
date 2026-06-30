@@ -5,15 +5,29 @@ import patientMonitor from "../../assets/images/modern-patient-monitor.png";
 import { FiShield } from "react-icons/fi";
 import { FiPhone, FiArrowRight } from "react-icons/fi";
 import { FiShoppingCart, FiTool, FiSettings, FiHeadphones } from "react-icons/fi";
+import HeroMobileImage from "../Hero/HeroMobileImage.jsx";
 
 const Hero = () => {
     return (
         <section
             id="home"
-            className="relative min-h-screen overflow-hidden pt-28 bg-background"
+            className="scroll-mt-24 relative min-h-screen overflow-hidden pt-28 bg-background mb-10"
         >
             {/* Background Glow */}
             <div className="absolute top-0 right-0 w-[600px] h-[600px] bg-secondary/10 blur-[120px] rounded-full" />
+
+            {/* Background Grid */}
+
+            <div
+                className="absolute inset-0 opacity-[0.035] pointer-events-none"
+                style={{
+                    backgroundImage: `
+                    linear-gradient(to right,#2563eb 1px,transparent 1px),
+                    linear-gradient(to bottom,#2563eb 1px,transparent 1px)
+                    `,
+                    backgroundSize: "48px 48px",
+                }}
+            />
 
             <Container>
                 <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center min-h-[85vh]">
@@ -41,40 +55,37 @@ const Hero = () => {
                             </span>
                         </div>
 
-                        {/* Heading */}
-                        <h2
-                            className="text-3xl md:text-5xl xl:text-5xl font-extrabold leading-tight text-primary"
-                        >
-                            One Stop Solution For
-                            <br />
-                            All Your Hospital Needs
-                        </h2>
+                        {/* Left Content */}
+                        <div className="flex flex-col items-center text-center lg:items-start lg:text-left">
+                            {/* Heading */}
+                            <h2
+                                className="text-4xl sm:text-5xl xl:text-5xl font-black leading-tight text-slate-900 max-w-xl"
+                            >
+                                One Stop Solution For
+                                <br />
+                                All Your Hospital Needs
+                            </h2>
 
-                        {/* Service Line */}
-                        <p
-                            className="mt-6 text-secondary text-2xl md:text-xl font-semibold  text-blue-600"
-                        >
-                            Sales • Service • Refurbishment • Accessories
-                        </p>
+                            {/* Service Line */}
+                            <p
+                                className="mt-6 text-lg sm:text-xl lg:text-xl font-semibold text-blue-600"
+                            >
+                                Sales • Service • Refurbishment • Accessories
+                            </p>
 
-                        {/* Description */}
-                        <p
-                            className="
-                            mt-6
-                            text-muted
-                            text-lg
-                            leading-relaxed
-                            max-w-xl
-                            "
-                        >
-                            We provide reliable biomedical equipment solutions
-                            for hospitals, clinics, diagnostic centers,
-                            laboratories, and healthcare institutions with
-                            expert service and 24/7 technical support.
-                        </p>
+                            {/* Description */}
+                            <p
+                                className="mt-6 max-w-xl text-base sm:text-lg leading-8 text-slate-600"
+                            >
+                                We provide reliable biomedical equipment solutions
+                                for hospitals, clinics, diagnostic centers,
+                                laboratories, and healthcare institutions with
+                                expert service and 24/7 technical support.
+                            </p>
+                        </div>
 
                         {/* CTA Buttons */}
-                        <div className="flex flex-col sm:flex-row gap-6 mt-8">
+                        <div className="mt-8 flex w-full flex-col items-center gap-4 sm:w-auto sm:flex-row">
                             <a
                                 href="tel:8919977474"
                                 className="inline-flex items-center justify-center gap-3 h-14 px-8 rounded-2xl bg-secondary 
@@ -99,21 +110,20 @@ const Hero = () => {
                             </a>
                         </div>
 
+                        <HeroMobileImage />
+
                         {/* Stats */}
                         <div>
                             <HeroStats />
                         </div>
 
-                        {/* Trust Strip */}
-                        {/* <TrustStrip/> */}
-
                     </div>
 
                     {/* ================= RIGHT CONTENT ================= */}
-                    <div className="relative hidden lg:flex justify-center">
+                    <div className="relative hidden lg:flex items-center justify-center">
 
                         {/* Main Image */}
-                        <img
+                        {/* <img
                             src={patientMonitor}
                             alt="Patient Monitor"
                             className="
@@ -123,6 +133,21 @@ const Hero = () => {
                             z-10
                             lg:-mt-30
                             "
+                        /> */}
+
+                        <img
+                            src={patientMonitor}
+                            alt="Patient Monitor"
+                            className="
+                            relative
+                            z-10
+                            w-full
+                            max-w-[720px]
+                            lg:-mt-24
+                            drop-shadow-[0_40px_80px_rgba(37,99,235,0.18)]
+                            transition-transform
+                            duration-700
+                            hover:scale-[1.02]"
                         />
 
                         {/* Floating Cards */}

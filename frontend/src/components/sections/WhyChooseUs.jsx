@@ -7,7 +7,7 @@ import WhyChooseHeader from "../whyChooseUs/WhyChooseHeader.jsx";
 const WhyChooseUs = () => {
 
     return(
-        <section id="why-us" className="relative py-24 bg-gradient-to-b from-white to-slate-50 overflow-hidden">
+        <section id="why-us" className="scroll-mt-24 relative py-20 bg-gradient-to-b from-white to-slate-50 overflow-hidden">
 
              {/* Background Glow */}
 

@@ -1,4 +1,4 @@
-import { FiPhone, FiMessageCircle, FiInstagram, FiMapPin,} from "react-icons/fi";
+import { FiPhone, FiMessageCircle, FiInstagram, FiMapPin, } from "react-icons/fi";
 
 export const contactData = [
     {
@@ -34,24 +34,22 @@ export const contactData = [
 
         accent: "green",
     },
-
     {
         id: 3,
 
-        title: "Location",
+        title: "Visit Us",
 
-        subtitle: "Hyderabad, Telangana",
+        subtitle: "Kharmanghat, Hyderabad",
 
         description:
-            "Visit our office or open the location directly in Google Maps.",
+            "Opp. Mega Function Hall, Sai Nagar, Saroor Nagar East. Visit our office for biomedical equipment sales, servicing, and technical support.",
 
         icon: FiMapPin,
 
-        href: "https://maps.google.com",
+        href: "https://www.google.com/maps/search/?api=1&query=Opp.+Mega+Function+Hall,+Sriram+Nagar+Colony,+Sai+Nagar,+Saroor+Nagar+East,+Kharmanghat,+Hyderabad,+Telangana+500079",
 
         accent: "cyan",
     },
-
     {
         id: 4,
 

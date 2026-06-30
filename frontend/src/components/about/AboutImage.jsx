@@ -107,7 +107,7 @@ const AboutImage = () => {
             <div
                 className="
                     absolute
-                    bottom-3
+                    top-3
                     left-3
 
                     flex
@@ -127,13 +127,13 @@ const AboutImage = () => {
 
                     shadow-xl
 
-                    sm:bottom-6 
+                    sm:top-6 
                     sm:left-6 
                     sm:px-5 
                     sm:py-4 
                     sm:gap-4
 
-                    animate-float-slow
+                    animate-badge-travel
                 "
             >
 

@@ -10,8 +10,9 @@ const ServiceProcess = () => {
         <section
             id="process"
             className="
+                scroll-mt-24
                 relative
-                py-24
+                py-20
                 overflow-hidden
                 bg-gradient-to-b
                 from-slate-50
