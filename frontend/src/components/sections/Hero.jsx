@@ -10,7 +10,7 @@ const Hero = () => {
     return (
         <section
             id="home"
-            className="relative min-h-screen overflow-hidden pt-32 bg-background"
+            className="relative min-h-screen overflow-hidden pt-28 bg-background"
         >
             {/* Background Glow */}
             <div className="absolute top-0 right-0 w-[600px] h-[600px] bg-secondary/10 blur-[120px] rounded-full" />
