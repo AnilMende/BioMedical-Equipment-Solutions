@@ -24,31 +24,6 @@ const Navbar = () => {
     const activeSection = manualActive ?? scrollActiveSection;
 
     /* ---------------- Navigation ---------------- */
-
-    // const handleNavigate = (href) => {
-
-    //     const section = document.querySelector(href);
-
-    //     if (!section) return;
-
-    //     const id = href.replace("#", "");
-
-    //     // Highlight immediately
-    //     setManualActive(id);
-
-    //     const navbarHeight = 90;
-
-    //     window.scrollTo({
-
-    //         top: section.offsetTop - navbarHeight,
-
-    //         behavior: "smooth",
-
-    //     });
-
-    //     setMobileOpen(false);
-
-    // };
     const handleNavigate = (href) => {
 
         const section = document.querySelector(href);

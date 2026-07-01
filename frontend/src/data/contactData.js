@@ -6,14 +6,14 @@ export const contactData = [
 
         title: "Call Now",
 
-        subtitle: "+91 98765 43210",
+        subtitle: "+91 89199 77474",
 
         description:
             "Speak directly with our biomedical service team.",
 
         icon: FiPhone,
 
-        href: "tel:+919876543210",
+        href: "tel:+918919977474",
 
         accent: "blue",
     },
@@ -30,7 +30,7 @@ export const contactData = [
 
         icon: FiMessageCircle,
 
-        href: "https://wa.me/919876543210",
+        href: "https://wa.me/918919977474",
 
         accent: "green",
     },
@@ -46,7 +46,7 @@ export const contactData = [
 
         icon: FiMapPin,
 
-        href: "https://www.google.com/maps/search/?api=1&query=Opp.+Mega+Function+Hall,+Sriram+Nagar+Colony,+Sai+Nagar,+Saroor+Nagar+East,+Kharmanghat,+Hyderabad,+Telangana+500079",
+        href: "https://maps.app.goo.gl/nrXti6GKbP7jMeU58?g_st=aw",
 
         accent: "cyan",
     },
@@ -55,14 +55,14 @@ export const contactData = [
 
         title: "Instagram",
 
-        subtitle: "@universal_biomeds",
+        subtitle: "@universalbiomeds",
 
         description:
             "Follow us for updates, projects and the latest biomedical solutions.",
 
         icon: FiInstagram,
 
-        href: "https://instagram.com/universal_biomeds",
+        href: "https://www.instagram.com/universalbiomeds?utm_source=qr&igsh=aW0wY2NpZTA4MDZp",
 
         accent: "instagram",
     },
